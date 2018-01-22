@@ -2,9 +2,141 @@
 
 /* --- YOUR CODE STARTS HERE --- */
 
+.sudo-body {
+    outline:1px solid #ccc;
+    width: 358px;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+}
 
 
+p {
+  font-size: .9em;
+  margin: 0 1em .5em 1em;
 
+}
+
+a {
+    text-decoration:none;
+    color:#3f3f3f;
+
+}
+
+nav ul{
+    list-style: none;
+    padding:0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+main {
+    flex: 1 1 auto;
+    position: relative;
+    overflow-y: auto;
+
+}
+
+/*HEADER SECTION*/
+header {
+    flex: 0 0 auto;
+    height: 40px;
+    background-color: #fafafa;
+    border-bottom: 2px solid #e9e9e9;
+}
+
+header nav {
+    position: relative;
+    top:-12px;
+    margin: 10px 15px;
+}
+
+header h1 {
+    position: absolute;
+    font-size: 1em;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin:0;
+}
+
+header nav ul {
+    align-items: stretch;
+    width: 100%;
+    height: auto;
+}
+
+/*MAIN SECTION*/
+
+.article-header {
+    height: 40px;
+}
+
+.article-header ul {
+    list-style: none;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: .8em;
+}
+
+.article-header ul li {
+    margin-right:1em;
+}
+
+.article-image img {
+    width:auto;
+	max-width:100%;
+	height:auto;
+}
+
+article {
+    text-align: left;
+}
+
+article nav ul {
+    padding: 0 10px;
+}
+
+article nav ul li {
+    margin-right:1em;
+
+}
+
+/*FOOTER SECTION*/
+
+footer {
+    background-color: #fafafa;
+    border-top:2px solid #e9e9e9;
+    flex: 0 0 auto;
+    height: 40px;
+}
+
+footer nav ul {
+    align-items: stretch;
+    margin: 10px 25px;
+}
+
+/*HELPERS*/
+
+.symbol-tiny {
+  font-size: 1em;
+}
+
+.symbol-large {
+  font-size: 2em;
+}
+
+.fa-adjust-height {
+    margin-top:5px;
+}
+
+.last-item-right li:last-child {
+  margin-left: auto;
+  margin-right:0;
+}
 
 
 /* --- YOUR CODE ENDS HERE --- */
